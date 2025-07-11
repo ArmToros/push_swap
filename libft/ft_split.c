@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_split.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: armtoros <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: armtoros <armtoros@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/24 15:54:26 by armtoros          #+#    #+#             */
-/*   Updated: 2025/01/29 15:03:17 by armtoros         ###   ########.fr       */
+/*   Updated: 2025/07/10 21:39:54 by armtoros         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -73,4 +73,3 @@ char	**ft_split(const char *s, char *c)
 	ret[i] = NULL;
 	return (ret);
 }
-

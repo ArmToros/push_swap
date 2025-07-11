@@ -1,3 +1,15 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   validation.c                                       :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: armtoros <armtoros@student.42.fr>          +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2025/07/10 21:43:07 by armtoros          #+#    #+#             */
+/*   Updated: 2025/07/10 21:43:49 by armtoros         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include "push_swap.h"
 
 int	is_double(t_stack *stack, int number)
@@ -16,7 +28,7 @@ int	is_double(t_stack *stack, int number)
 	return (1);
 }
 
-int	is_empty(char *value)  
+int	is_empty(char *value)
 {
 	int	i;
 	int	flag;
